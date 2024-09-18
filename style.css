@@ -258,8 +258,9 @@ body {
 }
 
 .card {
-  max-width: 285px;
-  flex: 1 0 200px;
+  min-width: 275px;
+  max-width: 390px;
+  flex: 1 0 275px;
   position: relative;
   background-color: var(--white-color);
   border: 3px solid var(--success-color);
